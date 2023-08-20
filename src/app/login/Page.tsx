@@ -25,7 +25,7 @@ const LoginPage = () => {
 				<input
 					type='email'
 					placeholder='email@gmail.com'
-					className='h-[48px] rounded-[4px] indent-4'
+					className='h-[48px] rounded-[4px] indent-4 text-black'
 					onChange={(e) => {
 						setUser({ ...user, email: e.target.value })
 					}}
@@ -40,7 +40,7 @@ const LoginPage = () => {
 				<input
 					type='password'
 					placeholder='password'
-					className='h-[48px] rounded-[4px] indent-4'
+					className='h-[48px] rounded-[4px] indent-4 text-black'
 					onChange={(e) => {
 						setUser({ ...user, password: e.target.value })
 					}}
